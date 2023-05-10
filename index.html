@@ -8,59 +8,70 @@
   </head>
 
   <body>
-    <header>
+    <!-- Хедер -->
+    <header class="header">
       <!-- Навігація сайту -->
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+      <nav class="navigation">
+        <a href="./index.html" class="header-logo">WebStudio</a>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="./index.html" class="nav-list-link">Studio</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./portfolio.html" class="nav-list-link">Portfolio</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="" class="nav-list-link">Contacts</a>
+          </li>
         </ul>
       </nav>
       <!-- Контакти для зв'язку -->
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="address-list">
+          <li class="email">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="phone">
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
-
-    <main>
+    <!-- Мейн -->
+    <main class="main">
       <!-- Hero -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="title">Effective Solutions for Your Business</h1>
+        <button type="button" class="title-btn">Order Service</button>
       </section>
       <!-- Секція з описом особливостей -->
-      <section>
-        <h2>Features</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="features">
+        <h2 hidden>Features</h2>
+        <ul class="features-list">
+          <li class="features-list-item">
+            <h3 class="features-list-title">Strategy</h3>
+            <p class="features-list-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="features-list-item">
+            <h3 class="features-list-title">Punctuality</h3>
+            <p class="features-list-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="features-list-item">
+            <h3 class="features-list-title">Diligence</h3>
+            <p class="features-list-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="features-list-item">
+            <h3 class="features-list-title">Technologies</h3>
+            <p class="features-list-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -68,10 +79,10 @@
         </ul>
       </section>
       <!-- Секція зображень: чим ми займаємось -->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+      <section class="gallery">
+        <h2 class="gallery-caption">What are we doing</h2>
+        <ul class="gallery-list">
+          <li class="gallery-list-item">
             <img
               src="./images/img1.jpg"
               alt="PC Screen"
@@ -79,7 +90,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="gallery-list-item">
             <img
               src="./images/img2.jpg"
               alt="Smartphone Screens"
@@ -87,7 +98,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="gallery-list-item">
             <img
               src="./images/img3.jpg"
               alt="Smartphone"
@@ -99,20 +110,20 @@
       </section>
 
       <!-- Секція з фото команди -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="team-gallery">
+        <h2 class="team-gallery-caption">Our Team</h2>
+        <ul class="team-list">
+          <li class="team-list-item">
             <img src="./images/Mark.jpg" alt="Mark" width="264" height="260" />
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img src="./images/Tom.jpg" alt="Tom" width="264" height="260" />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/Camila.jpg"
               alt="Camila"
@@ -122,7 +133,7 @@
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/Daniel.jpg"
               alt="Daniel"
@@ -136,9 +147,9 @@
       </section>
     </main>
     <!-- Футер -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a href="./index.html" class="footer-logo">WebStudio</a>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
