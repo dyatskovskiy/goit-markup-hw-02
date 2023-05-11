@@ -1,0 +1,61 @@
+:root {
+  --headers-color: #2e2f42;
+  --text-color: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+/* Хедер */
+/* Лого сайту */
+.header-logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #2e2f42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #f4f4fd;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-span {
+  color: #4d5ae5;
+}
+
+/* Навігація */
+.nav-list {
+  list-style: none;
+}
+.nav-list-link {
+  color: var(--headers-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Контакти */
+.address-list {
+  list-style: none;
+}
+.address-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
