@@ -8,11 +8,17 @@ body {
   color: #434455;
 }
 
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
 /* Хедер */
 /* Лого сайту */
 .logo {
-  text-decoration: none;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -28,12 +34,8 @@ body {
 }
 
 /* Навігація */
-.nav-list {
-  list-style: none;
-}
 .nav-list-link {
   color: var(--headers-color);
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -41,12 +43,8 @@ body {
 }
 
 /* Контакти */
-.address-list {
-  list-style: none;
-}
 .address-link {
   color: var(--text-color);
-  text-decoration: none;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
