@@ -1,6 +1,7 @@
 :root {
   --headers-color: #2e2f42;
   --text-color: #434455;
+  --hero-title-color: #ffffff;
 }
 
 body {
@@ -15,8 +16,10 @@ body {
   text-decoration: none;
 }
 
-/* Хедер */
-/* Лого сайту */
+.btn {
+  cursor: pointer;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -26,11 +29,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+/* ----------------- Хедер ----------------- */
+/* Лого  */
+
 .header-logo-span {
   color: #2e2f42;
-}
-.footer-logo-span {
-  color: #f4f4fd;
 }
 
 /* Навігація */
@@ -49,4 +53,119 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/* ----------------- Студія Мейн ----------------- */
+/*--------Hero------ */
+.hero {
+  background-color: #2e2f42;
+}
+
+.title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--hero-title-color);
+}
+
+.title-btn {
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+/*--------Features------ */
+.features {
+}
+
+.features-list {
+}
+
+.features-list-item {
+}
+
+.features-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headers-color);
+}
+
+.features-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*--------What are we doing------ */
+.gallery {
+}
+
+.gallery-caption {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headers-color);
+}
+
+.gallery-list {
+}
+
+.gallery-list-item {
+}
+
+/*-------- Our Team------ */
+.team-gallery {
+  background-color: #f4f4fd;
+}
+
+.team-gallery-caption {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headers-color);
+}
+
+.team-list {
+}
+
+.team-list-item {
+}
+
+.team-list-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--headers-color);
+}
+
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* ----------------- Футер ----------------- */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
