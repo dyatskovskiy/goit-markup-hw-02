@@ -15,6 +15,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
+  background-color: var(--white-color);
 }
 
 .list {
@@ -58,9 +59,11 @@ body {
 }
 
 /* Контакти */
+.address {
+  font-style: normal;
+}
 .address-link {
   color: var(--text-color);
-  font-style: normal;
   font-size: var(--text-size);
   line-height: var(--typical-lh);
   letter-spacing: var(--text-spacing);
@@ -82,8 +85,9 @@ body {
   letter-spacing: var(--text-spacing);
   color: var(--white-color);
 }
-
+/* Кнопка */
 .title-btn {
+  color: var(--white-color);
   background: var(--passive-color);
   font-weight: 500;
   font-size: var(--text-size);
@@ -153,6 +157,7 @@ body {
 }
 
 .team-list-item {
+  background-color: var(--white-color);
 }
 
 .team-list-caption {
@@ -192,6 +197,7 @@ body {
 }
 
 .filters-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: var(--text-size);
   line-height: var(--typical-lh);
