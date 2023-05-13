@@ -9,6 +9,7 @@
   /* Текст */
   --text-size: 16px;
   --text-spacing: 0.02em;
+  --typical-lh: 1.5;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
 }
 
 .btn {
+  font-family: inherit;
   cursor: pointer;
 }
 
@@ -36,7 +38,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+/* *****************Студія******************** */
 /* ----------------- Хедер ----------------- */
 /* Лого  */
 .header-logo-span {
@@ -48,7 +50,7 @@ body {
   color: var(--dark-color);
   font-weight: 500;
   font-size: var(--text-size);
-  line-height: 1.5;
+  line-height: var(--typical-lh);
   letter-spacing: var(--text-spacing);
 }
 .nav-list-link:is(:hover, :focus) {
@@ -60,7 +62,7 @@ body {
   color: var(--text-color);
   font-style: normal;
   font-size: var(--text-size);
-  line-height: 1.5;
+  line-height: var(--typical-lh);
   letter-spacing: var(--text-spacing);
 }
 .address-link:is(:hover, :focus) {
@@ -85,7 +87,7 @@ body {
   background: var(--passive-color);
   font-weight: 500;
   font-size: var(--text-size);
-  line-height: 1.5;
+  line-height: var(--typical-lh);
   letter-spacing: 0.04em;
 }
 .title-btn:is(:hover, :focus) {
@@ -111,7 +113,7 @@ body {
 
 .features-list-text {
   font-size: var(--text-size);
-  line-height: 1.5;
+  line-height: var(--typical-lh);
   letter-spacing: var(--text-spacing);
 }
 /*--------What are we doing------ */
@@ -164,7 +166,7 @@ body {
 
 .team-list-text {
   font-size: var(--text-size);
-  line-height: 1.5;
+  line-height: var(--typical-lh);
   text-align: center;
   letter-spacing: var(--text-spacing);
 }
@@ -178,7 +180,42 @@ body {
 }
 .footer-text {
   font-size: var(--text-size);
-  line-height: 1.5;
+  line-height: var(--typical-lh);
   letter-spacing: var(--text-spacing);
   color: var(--light-color);
+}
+
+/*******************Портфоліо***************** */
+/*--------Фільтр------ */
+
+.filters-list {
+}
+
+.filters-btn {
+  font-weight: 500;
+  font-size: var(--text-size);
+  line-height: var(--typical-lh);
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--passive-color);
+  background-color: var(--light-color);
+}
+/*--------Картка проекту------ */
+.filters-btn:is(:hover, :focus) {
+  color: var(--white-color);
+  background-color: var(--active-color);
+}
+
+.projects-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--text-spacing);
+  color: var(--dark-color);
+}
+
+.projects-text {
+  font-size: var(--text-size);
+  line-height: var(--typical-lh);
+  letter-spacing: var(--text-spacing);
 }
