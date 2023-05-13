@@ -224,4 +224,5 @@ body {
   font-size: var(--text-size);
   line-height: var(--typical-lh);
   letter-spacing: var(--text-spacing);
+  color: var(--text-color);
 }
