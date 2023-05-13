@@ -10,22 +10,30 @@ body {
 
 /* Хедер */
 /* Лого сайту */
-.logo {
+.header-logo {
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  color: #2e2f42;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-header {
-  color: #2e2f42;
-}
-.logo-footer {
+.footer-logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
   color: #f4f4fd;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+.logo-span {
+  color: #4d5ae5;
+}
+
 /* Навігація */
 .nav-list {
   list-style: none;
