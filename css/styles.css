@@ -1,12 +1,19 @@
 :root {
-  --headers-color: #2e2f42;
+  /* Кольори */
+  --dark-color: #2e2f42;
   --text-color: #434455;
-  --hero-title-color: #ffffff;
+  --white-color: #ffffff;
+  --light-color: #f4f4fd;
+  --passive-color: #4d5ae5;
+  --active-color: #404bbf;
+  /* Текст */
+  --text-size: 16px;
+  --text-spacing: 0.02em;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .list {
@@ -25,58 +32,65 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  color: var(--passive-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 /* ----------------- Хедер ----------------- */
 /* Лого  */
-
 .header-logo-span {
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 /* Навігація */
 .nav-list-link {
-  color: var(--headers-color);
+  color: var(--dark-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--text-size);
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--text-spacing);
+}
+.nav-list-link:is(:hover, :focus) {
+  color: var(--active-color);
 }
 
 /* Контакти */
 .address-link {
   color: var(--text-color);
   font-style: normal;
-  font-size: 16px;
+  font-size: var(--text-size);
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--text-spacing);
+}
+.address-link:is(:hover, :focus) {
+  color: var(--active-color);
 }
 
 /* ----------------- Студія Мейн ----------------- */
 /*--------Hero------ */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--dark-color);
 }
 
 .title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--hero-title-color);
+  letter-spacing: var(--text-spacing);
+  color: var(--white-color);
 }
 
 .title-btn {
-  background: #4d5ae5;
+  background: var(--passive-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--text-size);
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-
+.title-btn:is(:hover, :focus) {
+  background: var(--active-color);
+}
 /*--------Features------ */
 .features {
 }
@@ -91,14 +105,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--headers-color);
+  letter-spacing: var(--text-spacing);
+  color: var(--dark-color);
 }
 
 .features-list-text {
-  font-size: 16px;
+  font-size: var(--text-size);
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--text-spacing);
 }
 /*--------What are we doing------ */
 .gallery {
@@ -108,9 +122,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--text-spacing);
   text-transform: capitalize;
-  color: var(--headers-color);
+  color: var(--dark-color);
 }
 
 .gallery-list {
@@ -121,16 +135,16 @@ body {
 
 /*-------- Our Team------ */
 .team-gallery {
-  background-color: #f4f4fd;
+  background-color: var(--light-color);
 }
 
 .team-gallery-caption {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--text-spacing);
   text-transform: capitalize;
-  color: var(--headers-color);
+  color: var(--dark-color);
 }
 
 .team-list {
@@ -144,28 +158,27 @@ body {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--headers-color);
+  letter-spacing: var(--text-spacing);
+  color: var(--dark-color);
 }
 
 .team-list-text {
-  font-size: 16px;
+  font-size: var(--text-size);
   line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
+  letter-spacing: var(--text-spacing);
 }
 
 /* ----------------- Футер ----------------- */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--dark-color);
 }
 .footer-logo-span {
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 .footer-text {
-  font-size: 16px;
+  font-size: var(--text-size);
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+  letter-spacing: var(--text-spacing);
+  color: var(--light-color);
 }
