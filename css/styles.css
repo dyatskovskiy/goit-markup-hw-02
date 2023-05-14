@@ -206,12 +206,13 @@ body {
   color: var(--passive-color);
   background-color: var(--light-color);
 }
-/*--------Картка проекту------ */
+
 .filters-btn:is(:hover, :focus) {
   color: var(--white-color);
   background-color: var(--active-color);
 }
 
+/*--------Картка проекту------ */
 .projects-title {
   font-weight: 500;
   font-size: 20px;
